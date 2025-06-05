@@ -4,4 +4,5 @@ Our project should achieve the following tasks:
 • Allow users to upload files to tickets
 • Let users tag tickets so they’re easy to find
 • Provide an API on which users can base development of their own applications
-It was started using "rails new ticketee -c sass"
+It was started using "rails new ticketee -c sass". We then install some extra gems (byebug, rspec and webdrivers) using "bundle install". 
+In order to start up rspec we need to run "rails g rspec:install". This adds the /spec folder where our tests shall go.  
