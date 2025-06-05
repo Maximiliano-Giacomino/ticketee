@@ -1,0 +1,7 @@
+Our project should achieve the following tasks:
+• Track tickets (of course) and group them into projects
+• Provide a way to restrict users to certain projects
+• Allow users to upload files to tickets
+• Let users tag tickets so they’re easy to find
+• Provide an API on which users can base development of their own applications
+It was started using "rails new ticketee -c sass"
