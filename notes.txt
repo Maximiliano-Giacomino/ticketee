@@ -6,3 +6,4 @@ Our project should achieve the following tasks:
 • Provide an API on which users can base development of their own applications
 It was started using "rails new ticketee -c sass". We then install some extra gems (byebug, rspec and webdrivers) using "bundle install". 
 In order to start up rspec we need to run "rails g rspec:install". This adds the /spec folder where our tests shall go. We create the "creating_projects_spec.rb" test file on spec/features, and we run it with "bundle exec rspec" 
+We create the "projects" route and all its RESTful paths through the "resources :projects" line. Then by using "rails g model project name:string description:string" we generate our first model and run "bundle exec rails db:migrate" to generate our first database. 
